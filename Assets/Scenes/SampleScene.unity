@@ -757,6 +757,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1279701049}
+  - component: {fileID: 1279701050}
   m_Layer: 0
   m_Name: Coche
   m_TagString: Untagged
@@ -780,6 +781,27 @@ Transform:
   - {fileID: 5336716669775816964}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1279701050
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279701048}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.046519082, y: 0.01830537, z: 0.0119173825}
+  m_Center: {x: -0.0011833215, y: 0.00045134543, z: 0.006954972}
 --- !u!1 &2118337559
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,7 +844,7 @@ WheelCollider:
   m_GameObject: {fileID: 2118337559}
   serializedVersion: 2
   m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: 0.5
+  m_Radius: 2.6
   m_SuspensionSpring:
     spring: 35000
     damper: 4500
