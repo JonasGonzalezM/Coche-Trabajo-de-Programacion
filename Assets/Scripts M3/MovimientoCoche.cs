@@ -11,6 +11,7 @@ public class MovimientoCoche : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        VelocidadM3();
         
     }
 
