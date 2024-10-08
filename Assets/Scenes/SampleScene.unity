@@ -527,7 +527,7 @@ Transform:
   m_GameObject: {fileID: 334525858}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.088, y: -0.133, z: -0.025}
+  m_LocalPosition: {x: 0, y: -0.111, z: 0}
   m_LocalScale: {x: 100.00003, y: 100.000046, z: 100.00003}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -863,7 +863,7 @@ Transform:
   m_GameObject: {fileID: 1164261143}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.15, y: 1.318, z: 1.525}
+  m_LocalPosition: {x: -1.15, y: 1.318, z: 1.521}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -878,7 +878,7 @@ WheelCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1164261143}
   serializedVersion: 2
-  m_Center: {x: 0.06, y: 0.03, z: -0.03}
+  m_Center: {x: 0.15, y: 0.03, z: -0.03}
   m_Radius: 0.33
   m_SuspensionSpring:
     spring: 35000
@@ -1128,7 +1128,7 @@ Transform:
   m_GameObject: {fileID: 1437078885}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.159, y: 1.381, z: -1.235}
+  m_LocalPosition: {x: -1.159, y: 1.345, z: -1.235}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1694,7 +1694,7 @@ Transform:
   m_GameObject: {fileID: 5109112048555416291}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071566, w: -0.707057}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.00089, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
