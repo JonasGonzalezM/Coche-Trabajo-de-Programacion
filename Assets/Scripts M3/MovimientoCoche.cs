@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class MovimientoCoche : MonoBehaviour
 {
-    [SerializeField] Vector3 movimientoDelante = new Vector3(0,1,0);
+    [SerializeField] Vector3 movimientoArriba = new Vector3(0,1,0);
     [SerializeField] Vector3 Giro= Vector3.zero;
-    [SerializeField] private int fuerza = 20;
+    [SerializeField] private int fuerza = 1000;
+    [SerializeField] private int contador = 5;
     Rigidbody rb;
     // Start is called before the first frame update
     void Start()
     {
-        VelocidadM3();
+        
         
     }
 
@@ -21,7 +22,7 @@ public class MovimientoCoche : MonoBehaviour
         //if (Input.GetKey(KeyCode.W))
         //{
         //    movementInput.z = 3*Time.deltaTime;
-            
+
 
 
         //} 
@@ -45,19 +46,24 @@ public class MovimientoCoche : MonoBehaviour
 
         //}
 
-
+        VelocidadM3();
     }
 
     void VelocidadM3()
     {
-        if (Input.GetKeyDown(KeyCode.W)) 
+        if (Input.GetKeyDown(KeyCode.Space)) 
         {
-
-            rb.AddForce(movimientoDelante * fuerza, ForceMode.Impulse);
+            contador--;
+            if(contador>0)
+            {
+                rb.AddForce(movimientoArriba * fuerza, ForceMode.Impulse);
+            }
+            
 
 
 
         }
+        contador = 5;
     }
 
 
