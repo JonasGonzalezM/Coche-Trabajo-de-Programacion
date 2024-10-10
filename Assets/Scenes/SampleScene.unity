@@ -4672,6 +4672,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 725642431065168241, guid: d8d2ad7b7692ef34ea3dd39ad022c562,
+        type: 3}
+      propertyPath: velocidad
+      value: 281.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 725642431065168241, guid: d8d2ad7b7692ef34ea3dd39ad022c562,
+        type: 3}
+      propertyPath: velocidadVector.y
+      value: 45.35
+      objectReference: {fileID: 0}
     - target: {fileID: 1626793207276325490, guid: d8d2ad7b7692ef34ea3dd39ad022c562,
         type: 3}
       propertyPath: m_LocalScale.x
