@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Rodillo : MonoBehaviour
 {
-    [SerializeField] private int velocidad;
+    [SerializeField] private float velocidad;
     [SerializeField] Vector3 velocidadVector= new Vector3 (0,1,0);
     Rigidbody rb;
     // Start is called before the first frame update
