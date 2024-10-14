@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovimietoPlataforma : MonoBehaviour
+public class Coleccionable : MonoBehaviour
 {
     [SerializeField] private float timer;
     [SerializeField] private int velocidad = 3;
-    [SerializeField] Vector3 velocidadVector = new Vector3(1, 0, 0);
+    [SerializeField] Vector3 direccionArriba = new Vector3(0, 1, 0);
+    [SerializeField] Vector3 direccionAbajo = new Vector3(0, -1, 0);
 
     // Start is called before the first frame update
     void Start()
@@ -20,18 +21,18 @@ public class MovimietoPlataforma : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        if (timer <= 5)
+        if (timer >= 2f)
         {
-            transform.Translate(velocidadVector * velocidad * Time.deltaTime);
-            if (timer >= 5)
-            {
-                timer -= Time.deltaTime;
-                transform.Translate(velocidadVector * -velocidad * Time.deltaTime);
-
-            }
+            transform.Translate(direccionArriba * velocidad * Time.deltaTime);
 
         }
-        timer = 0;
+        if (timer <= 2f)
+        {
+           timer=0;
+           transform.Translate(direccionArriba * -velocidad * Time.deltaTime);
+
+        }
+        
 
         
         //else
