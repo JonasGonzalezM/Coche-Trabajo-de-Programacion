@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1626793207276325490}
   - component: {fileID: 6742465176472478440}
-  - component: {fileID: 725642431065168241}
   - component: {fileID: 4240253382935879360}
   - component: {fileID: 7867172904872963358}
   - component: {fileID: 6096054022921678872}
@@ -32,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -205.04005, y: 104.8958, z: -153.26514}
-  m_LocalScale: {x: 1.1007022, y: 1.1007022, z: 1.1007022}
+  m_LocalScale: {x: 1.2180488, y: 1.1007022, z: 1.1007022}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -50,23 +49,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  velocidad: 3
-  direccionArriba: {x: 0, y: 1, z: 0}
-  direccionAbajo: {x: 0, y: -1, z: 0}
---- !u!114 &725642431065168241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8266442002963579286}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbcf7e2439dd13349b864c18ac1cb043, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocidad: 20
-  velocidadVector: {x: 0, y: 1, z: 0}
+  velocidad: 0.5
+  direccionMovimiento: {x: 0, y: 1, z: 0}
+  rotacionColeccion: {x: 0, y: 1, z: 0}
 --- !u!33 &4240253382935879360
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -148,7 +133,7 @@ Rigidbody:
   serializedVersion: 4
   m_Mass: 1e+9
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -163,5 +148,5 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 46
+  m_Constraints: 62
   m_CollisionDetection: 0

@@ -42,6 +42,8 @@ public class ControlM3 : MonoBehaviour
 
     private void FixedUpdate()
     {
+        Coleccionable();
+
         float motor = maxTorsionMotor * Input.GetAxis("Vertical");
         float direccion = maxAnguloDeGiro * Input.GetAxis("Horizontal");
 
@@ -67,5 +69,21 @@ public class ControlM3 : MonoBehaviour
 
 
         
+    }
+
+
+    void Coleccionable()
+    {
+
+
+
+
+
+
+
+
+
+
+
     }
 }
