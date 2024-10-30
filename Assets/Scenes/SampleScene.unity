@@ -2201,7 +2201,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.23605783, y: -0.000000030851563, z: 0.000000007494556, w: 0.97173905}
-  m_LocalPosition: {x: -8.7, y: 14.389999, z: -466.00998}
+  m_LocalPosition: {x: -4.3, y: 2.19, z: -19.71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6174,7 +6174,7 @@ Transform:
   m_GameObject: {fileID: 1279701048}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.7, y: 11.7, z: -460.8}
+  m_LocalPosition: {x: -4.3, y: -0.5, z: -14.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -20634,7 +20634,7 @@ GameObject:
   - component: {fileID: 543450653513554827}
   - component: {fileID: 1953623477}
   m_Layer: 0
-  m_Name: untitled
+  m_Name: Circuito Mario Kart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31095,7 +31095,7 @@ Transform:
   m_GameObject: {fileID: 1061574692914994810}
   serializedVersion: 2
   m_LocalRotation: {x: 1.1879145e-14, y: 0.66406035, z: 7.602657e-15, w: 0.747679}
-  m_LocalPosition: {x: -2.12, y: 0.011999991, z: -7.3929987}
+  m_LocalPosition: {x: -2.424, y: 0.012, z: -6.361}
   m_LocalScale: {x: 9.999998, y: 9.999999, z: 9.999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -31443,7 +31443,7 @@ Transform:
   m_GameObject: {fileID: 4568867038031279481}
   serializedVersion: 2
   m_LocalRotation: {x: 1.2841937e-14, y: 0.66487664, z: 7.610031e-15, w: 0.74695325}
-  m_LocalPosition: {x: -2.6440003, y: 0.011999987, z: -7.008999}
+  m_LocalPosition: {x: -2.948, y: 0.012, z: -5.977}
   m_LocalScale: {x: 10.000001, y: 9.999999, z: 10.000001}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -66353,7 +66353,7 @@ Transform:
   m_GameObject: {fileID: 1836994483557348389}
   serializedVersion: 2
   m_LocalRotation: {x: 1.2225964e-14, y: 0.36786216, z: 6.112983e-15, w: 0.9298803}
-  m_LocalPosition: {x: -1.1370007, y: 0.011999987, z: -7.7659984}
+  m_LocalPosition: {x: -1.441, y: 0.012, z: -6.734}
   m_LocalScale: {x: 10.000002, y: 9.999999, z: 10.000002}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -104946,7 +104946,7 @@ Transform:
   m_GameObject: {fileID: 8805825661435733364}
   serializedVersion: 2
   m_LocalRotation: {x: 1.2841931e-14, y: 0.66487664, z: 3.8050173e-15, w: 0.74695325}
-  m_LocalPosition: {x: -3.0610008, y: 0.011999988, z: -7.0579987}
+  m_LocalPosition: {x: -3.365, y: 0.012, z: -6.026}
   m_LocalScale: {x: 10.000004, y: 9.999999, z: 10.000004}
   m_ConstrainProportionsScale: 0
   m_Children: []
